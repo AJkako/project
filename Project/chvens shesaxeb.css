@@ -1,0 +1,223 @@
+header {
+    height: 50px;
+    width: auto;
+    background: black;
+    text-align: center;
+    
+
+}
+.satauri {
+position: relative;
+right: 700px;
+bottom: 25px;
+color: white;
+}
+.chvenzee {
+    color: white;
+    position: relative;
+    bottom: 64px;
+    right: 100px;
+}
+
+.chv {
+    position: relative;
+    bottom: 65px;
+    color: white;
+    right: 100px;
+}
+
+.kontacti {
+    position: relative;
+    bottom: 102px;
+    color: white;
+}
+
+.reklama {
+    position: relative;
+    bottom: 139px;
+    color: white;
+    left: 80px;
+}
+
+.avtorebi{
+    position: relative;
+    bottom: 176px;
+    color: white;
+    left: 161px;
+}
+
+.linkebi{
+    position: relative;
+    bottom: 130px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -300px;
+    left: -180px;
+    font-size: 18px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.search-bar {
+    position: relative;
+    bottom: -265px;
+    left: 1350px;
+}
+
+@keyframes Animation {
+    from {
+        transform: translateX(280px);
+    }
+    to {
+        transform: translateX(300px); 
+    }
+  }
+  
+  .animated-element {
+    background-image: url(Screenshot\ 2024-01-18\ 050450.png);
+    width: 1292px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    bottom: -310px;
+    animation: Animation 2s  ease-in-out infinite; 
+  }
+
+  .animated2 {
+    background-image: url(Screenshot\ 2024-01-18\ 054026.jpg);
+    width: 1292px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    bottom: -310px;
+    animation: Animation 2s  ease-in-out infinite; 
+  }
+
+  .imgs {
+    position: relative;
+    bottom: -250px;
+    left: 260px;
+  }
+  .button-container {
+    position: relative;
+    top: -885px;
+    right: -800px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button.login {
+    background-color: #28a745;
+}
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 450px;
+    left: 1300px;
+    
+}
+
+.red-button:hover {
+    background-color: darkred;
+}
+.chvenze {
+    font-size: 18px;
+    text-align: center;
+    top: 70px;
+}
+.chvenze {
+    position: relative;
+    top: 320px;
+    right: 490px;
+
+}
+.inf {
+    width: 900px;
+    height: 400px;
+    position: relative;
+    top: 350px;
+    left: 340px;
+}
+.kalendaris {
+
+}
+.vidz {
+    width: 350px;
+    position: relative;
+    left: 1250px;
+    top: 850px;
+
+}
+.buton {
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    left: 900px;
+    top: 600px;
+    border: none;
+    color: white;
+}
+.futeri {
+        position: relative;
+        top: 700px;
+        width: 100%;
+        height: 300px;
+ 
+}
+.pirvelilogo {
+    position: relative;
+    left: 250px;
+    width: 240px;
+    height: 70px;
+}
+.meorelogo {
+    position: relative;
+    left: 1000px;
+
+width: 270px;
+height: 70px;
+}
+.mesamelogo {
+    position: relative;
+    left: 250px;
+
+}
+.kalendari {
+    position: relative;
+    left: 1250px;
+    top: 200px;
+    
+}

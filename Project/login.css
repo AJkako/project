@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+#email {
+    height: 40px;
+    width: 250px;
+    
+}
+#psw {
+    height: 40px;
+    width: 250px;
+    
+}
+
+.login {
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    width: 250px;
+    position: relative;
+    bottom: 70px;
+    background-color: #002a57;
+    
+}
+.zedalogo {
+    width: 250px;
+    height: 150px;
+}
